@@ -103,7 +103,10 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
         >
           <div className="col-md-8 col-sm-12 crypto-price mx-auto flex-row">
             {Object.entries(cryptoData).map(([cryptoName, priceData]) => (
-              <div key={cryptoName} className="d-flex align-items-center">
+              <div
+                key={cryptoName}
+                className="d-flex align-items-center mx-auto"
+              >
                 <img
                   src={cryptoImages[cryptoName]}
                   alt={cryptoName}

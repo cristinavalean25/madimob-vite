@@ -23,7 +23,7 @@ const Contact: React.FC<ContactProps> = ({ changeLanguage, locale }) => {
         }}
       >
         <div className="container-contact">
-          <div className="details-contact">
+          <div className="details-contact mt-5">
             <h1 style={{ textAlign: "start" }}>
               {" "}
               <FormattedMessage id="contact.title" />
@@ -69,7 +69,7 @@ const Contact: React.FC<ContactProps> = ({ changeLanguage, locale }) => {
               <div className="contact-write">
                 <p>LinkedIn</p>
                 <Link
-                  to="https://www.linkedin.com/feed/"
+                  to="https://www.linkedin.com/company/madimob/about/?viewAsMember=true"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -112,6 +112,7 @@ const Contact: React.FC<ContactProps> = ({ changeLanguage, locale }) => {
             </form>
           </div>
         </div>
+        <div style={{ height: "100px" }}></div>
       </div>
     </>
   );
