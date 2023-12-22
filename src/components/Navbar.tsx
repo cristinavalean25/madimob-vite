@@ -5,7 +5,7 @@ import { setCryptoPrices } from "../Redux/cryptoPricesActions";
 import axios from "axios";
 import logo from "../Images/madimob-02.png";
 import bitcoin from "../Images/bitcoin1.png";
-import elrond from "../Images/elrond.png";
+import elrond from "../Images/x-mint.png";
 import eth from "../Images/eth.png";
 import bnb from "../Images/bnb.png";
 import solana from "../Images/solana.png";
